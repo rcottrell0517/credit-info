@@ -1,0 +1,8 @@
+type ! and press enter automates the setup
+
+https://cdnjs.com/libraries/font-awesome
+
+https://fonts.google.com/
+
+formatting visual code editor-
+https://prettier.io/
