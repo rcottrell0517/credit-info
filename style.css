@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'New Tegomin', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* need the height to get it to center in the page when using flex */
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+  font-family: "New Tegomin", sans-serif;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  /* need the height to get it to center in the page when using flex */
+  // height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
 }
