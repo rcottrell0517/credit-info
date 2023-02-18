@@ -97,8 +97,15 @@ body {
   text-align: center;
 }
 
+.content img {
+  max-width: 50%;
+}
+
 @media only screen and (max-width: 600px) {
   .content {
     background-color: lightblue;
+    .content img {
+      max-width: 20%;
+    }
   }
 }
