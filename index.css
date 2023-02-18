@@ -18,6 +18,12 @@ body {
   margin: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
 .container {
   background-color: #fafafa;
   transform-origin: top left;
@@ -80,4 +86,19 @@ body {
 .container.show-nav + nav li {
   transform: translateX(0);
   transition-delay: 0.3s;
+}
+
+.content {
+  position: relative;
+  max-width: 2000px;
+  // border: #ff7979;
+  margin: 50px auto;
+  background: red;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    background-color: lightblue;
+  }
 }
