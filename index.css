@@ -91,9 +91,9 @@ body {
 .content {
   position: relative;
   max-width: 2000px;
-  // border: #ff7979;
   margin: 50px auto;
   background: red;
+  border-style: dotted;
   text-align: center;
 }
 
@@ -101,9 +101,10 @@ body {
   max-width: 50%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 768px) {
   .content {
     background-color: lightblue;
+    border-style: dashed;
     .content img {
       max-width: 20%;
     }
