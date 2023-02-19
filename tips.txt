@@ -6,3 +6,7 @@ https://fonts.google.com/
 
 formatting visual code editor-
 https://prettier.io/
+
+
+Responsive design
+https://www.simplilearn.com/tutorials/css-tutorial/css-responsive-design
