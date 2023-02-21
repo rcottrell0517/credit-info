@@ -77,9 +77,21 @@ body {
   transform-origin: top left;
 }
 
-.container.show-nav + nav li {
-  transform: translateX(0);
-  transition-delay: 0.3s;
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 30px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #fafafa;
 }
 
 .content {
