@@ -126,14 +126,8 @@ nav ul li a {
   text-align: left;
 }
 
-// @media only screen and (max-width: 600px) {
-//   body {
-//     background-color: lightblue;
-//   }
-// }
-
-@media only screen and (min-width: 320px) {
-  .content {
+@media only screen and (max-width: 600px) {
+  body {
     background-color: lightblue;
     border-style: dashed;
     font-size: small;
